@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/Users/John/Development/Talend-v6.1.1/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_SRI0shihEeaRru2JLosb7w" name="DataOperation"/>
+    <routinesParameter id="_SRZ6cBihEeaRru2JLosb7w" name="Mathematical"/>
+    <routinesParameter id="_SRbIkBihEeaRru2JLosb7w" name="Numeric"/>
+    <routinesParameter id="_SRc9wBihEeaRru2JLosb7w" name="Relational"/>
+    <routinesParameter id="_SReL4BihEeaRru2JLosb7w" name="StringHandling"/>
+    <routinesParameter id="_SRfaABihEeaRru2JLosb7w" name="TalendDataGenerator"/>
+    <routinesParameter id="_SRgoIBihEeaRru2JLosb7w" name="TalendDate"/>
+    <routinesParameter id="_SRhPMBihEeaRru2JLosb7w" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Downloads/Talend ETL for height.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;Sample source data&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="rectype"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rectypeVersion"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genclientID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2clientID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genpatientID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2patientID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="encounterID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vitalID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="versionID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="auditDataFlag"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="status"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="units"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="refRange"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errorFlag"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clinicalDTTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="performedDTTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="recordedDTTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genproviderID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2providerID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primarykey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="rectype"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rectypeVersion"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genclientID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2clientID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genpatientID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2patientID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="encounterID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vitalID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="versionID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="auditDataFlag"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="status"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="units"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="refRange"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errorFlag"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clinicalDTTM"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="performedDTTM"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="recordedDTTM"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genproviderID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gen2providerID"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primarykey"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="LABEL" value="VitalsSource_In"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_1">
+      <column comment="" key="false" length="-1" name="rectype" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="rectypeVersion" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genclientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2clientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genpatientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2patientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounterID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="vitalID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="versionID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="auditDataFlag" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="units" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="refRange" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="errorFlag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="clinicalDTTM" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="performedDTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="recordedDTTM" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genproviderID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2providerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="primarykey" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="rectype" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="rectypeVersion" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genclientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2clientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genpatientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2patientID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounterID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="vitalID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="versionID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="auditDataFlag" nullable="true" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="units" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="refRange" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="errorFlag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="clinicalDTTM" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="performedDTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="recordedDTTM" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="genproviderID" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="gen2providerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="primarykey" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Vx0QsBiiEeav87-tFd3l0Q-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="DataOut" name="DataOut">
+      <column comment="" key="false" length="-1" name="boc_observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_etl_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_norm_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="data_source_sub_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe1_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe2_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="error_flag_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_exclusion_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_dupe_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_test_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="obs_documenting_prov_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounter_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_name_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_performed_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_recorded_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="DataOut">
+        <mapperTableEntries name="boc_observation_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_etl_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_norm_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_source_sub_id" expression="srcDataRow.gen2clientID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_id" expression="srcDataRow.vitalID " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe1_data" expression="srcDataRow.versionID " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe2_data" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="patient_id" expression="srcDataRow.gen2patientID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_patient_id" expression="srcDataRow.gen2patientID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_local" expression="srcDataRow.status " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="error_flag_local" expression="srcDataRow.errorFlag " type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_exclusion_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_dupe_flag" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_test_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="obs_documenting_prov_id" expression="srcDataRow.gen2providerID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounter_id" expression="srcDataRow.encounterID " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="observation_code_local" expression="srcDataRow.name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_name_local" expression="srcDataRow.name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_code_mapped" expression="boc_measurement_map.mapcolumn4 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_local" expression="srcDataRow.value " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_local" expression="boc_unit.mapcolumn4 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_mapped" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_performed_dttm" expression="srcDataRow.performedDTTM " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_recorded_dttm" expression="srcDataRow.recordedDTTM " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="srcDataRow" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="rectype" type="id_String" nullable="true"/>
+        <mapperTableEntries name="rectypeVersion" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genclientID" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="gen2clientID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genpatientID" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="gen2patientID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounterID" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="vitalID" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="versionID" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="auditDataFlag" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="status" type="id_String" nullable="true"/>
+        <mapperTableEntries name="value" type="id_String" nullable="true"/>
+        <mapperTableEntries name="units" type="id_String" nullable="true"/>
+        <mapperTableEntries name="refRange" type="id_String" nullable="true"/>
+        <mapperTableEntries name="errorFlag" type="id_String" nullable="true"/>
+        <mapperTableEntries name="clinicalDTTM" type="id_String" nullable="true"/>
+        <mapperTableEntries name="performedDTTM" type="id_String" nullable="true"/>
+        <mapperTableEntries name="recordedDTTM" type="id_String" nullable="true"/>
+        <mapperTableEntries name="genproviderID" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="gen2providerID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="primarykey" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="boc_measurement_map" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="mapname" expression="&quot;boc_measurement_map&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn2" expression="srcDataRow.name " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn4" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn6" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="boc_unit" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="mapname" expression="&quot;boc_unit_dictionary&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn2" expression="srcDataRow.units " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn3" expression="&quot;height&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn4" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn6" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_2" show="false"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Documents/Talend ETL for height.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;Mapping tables&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_2">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_4" show="false"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Documents/Talend ETL for height.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;Mapping tables&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_4">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Vx0QsBiiEeav87-tFd3l0Q-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="DataOut" name="obs_out">
+      <column comment="" key="false" length="-1" name="boc_observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_etl_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_norm_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="data_source_sub_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe1_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe2_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="error_flag_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_exclusion_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_dupe_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_test_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="obs_documenting_prov_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounter_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_name_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_performed_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_recorded_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="obs_out" activateCondensedTool="true">
+        <mapperTableEntries name="boc_observation_id" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_etl_event_id" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_norm_event_id" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_source_sub_id" expression="DataOut.data_source_sub_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_id" expression="DataOut.observation_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe1_data" expression="DataOut.dedupe1_data" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe2_data" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="patient_id" expression="DataOut.patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_patient_id" expression="DataOut.boc_patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_local" expression="DataOut.observation_status_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_mapped" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="error_flag_local" expression="DataOut.error_flag_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_exclusion_code" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_dupe_flag" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_test_code" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="obs_documenting_prov_id" expression="DataOut.obs_documenting_prov_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounter_id" expression="DataOut.encounter_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="observation_code_local" expression="DataOut.observation_code_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_name_local" expression="DataOut.observation_name_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_code_mapped" expression="DataOut.observation_code_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_local" expression="DataOut.observation_value_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_local" expression="DataOut.observation_unit_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_mapped" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_mapped" expression="boc_measurement_metadata.mapcolumn2 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_performed_dttm" expression="DataOut.observation_performed_dttm" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_recorded_dttm" expression="DataOut.observation_recorded_dttm" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="DataOut" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="boc_observation_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_etl_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_norm_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_source_sub_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe1_data" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe2_data" type="id_String" nullable="true"/>
+        <mapperTableEntries name="patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="error_flag_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_exclusion_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_dupe_flag" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_test_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="obs_documenting_prov_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounter_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="observation_code_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_name_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_code_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_performed_dttm" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_recorded_dttm" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="boc_measurement_metadata" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="mapname" expression="&quot;boc_measurement_metadata&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn1" expression="DataOut.observation_code_mapped " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn2" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn4" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn6" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_5" show="false"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Documents/Talend ETL for height.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;Mapping tables&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_5">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Vx0QsBiiEeav87-tFd3l0Q-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="DataOut" name="obsconvout">
+      <column comment="" key="false" length="-1" name="boc_observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_etl_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_norm_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="data_source_sub_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe1_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe2_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="error_flag_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_exclusion_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_dupe_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_test_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="obs_documenting_prov_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounter_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_name_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_performed_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_recorded_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="obsconvout">
+        <mapperTableEntries name="boc_observation_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_etl_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_norm_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_source_sub_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe1_data" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe2_data" type="id_String" nullable="true"/>
+        <mapperTableEntries name="patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="error_flag_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_exclusion_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_dupe_flag" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_test_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="obs_documenting_prov_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounter_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="observation_code_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_name_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_code_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_mapped" expression="obs_out.observation_value_local  + conversion.mapcolumn5 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_performed_dttm" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_recorded_dttm" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="obs_out" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="boc_observation_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_etl_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_norm_event_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_source_sub_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe1_data" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="dedupe2_data" type="id_String" nullable="true"/>
+        <mapperTableEntries name="patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_patient_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_status_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="error_flag_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_exclusion_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_dupe_flag" type="id_String" nullable="true"/>
+        <mapperTableEntries name="boc_test_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="obs_documenting_prov_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="encounter_id" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="observation_code_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_name_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_code_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_local" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_value_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_unit_mapped" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_performed_dttm" type="id_String" nullable="true"/>
+        <mapperTableEntries name="observation_recorded_dttm" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="conversion" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="mapname" expression="&quot;boc_unit_conversion&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn1" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn2" expression="obs_out.observation_code_mapped " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn3" expression="obs_out.observation_unit_local " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn4" expression="obs_out.observation_unit_mapped " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="mapcolumn5" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mapcolumn6" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Development/Talend-v6.1.1/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/out.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="observation_out"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="DataOut" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="-1" name="boc_observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_etl_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_norm_event_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="data_source_sub_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe1_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dedupe2_data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_patient_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_status_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="error_flag_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_exclusion_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_dupe_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="boc_test_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="obs_documenting_prov_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="encounter_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_name_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_code_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_local" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_value_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_unit_mapped" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_performed_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="observation_recorded_dttm" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_6" show="false"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/John/Documents/Talend ETL for height.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;Mapping tables&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapname"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_6">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="mapname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mapcolumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="srcDataRow" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="srcDataRow" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="DataOut" lineStyle="0" metaname="DataOut" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="clinicalDTTM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="performedDTTM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="DataOut" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="boc_measurement_map" lineStyle="8" metaname="tFileInputExcel_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_2" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapname"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="boc_measurement_map" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="boc_unit" lineStyle="8" metaname="tFileInputExcel_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_4" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="boc_unit" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="obs_out" lineStyle="0" metaname="obs_out" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="obs_out" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="boc_measurement_metadata" lineStyle="8" metaname="tFileInputExcel_5" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_5" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="mapcolumn1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="boc_measurement_metadata" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="obsconvout" lineStyle="0" metaname="obsconvout" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="obsconvout" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="conversion" lineStyle="8" metaname="tFileInputExcel_6" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_6" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="conversion" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
